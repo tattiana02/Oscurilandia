@@ -2,7 +2,7 @@ package game;
 
 /**
  * Juego Oscurilandia La Secuela
- * @author Natalia Ponce, Yesenia LLanos, Mirko Bravo y Alvaro Alvarez
+ * @author Natalia Ponce, Yesenia LLanos, Mirko Bravo y Alvaro Alvarez.
  * https://github.com/AlvarezAO/Oscurilandia
  *
  */

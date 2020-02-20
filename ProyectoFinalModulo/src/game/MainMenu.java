@@ -73,7 +73,7 @@ public class MainMenu {
 				
 		} while(opcion != 4);
 		
-	}//
+	}
 	
 
 }//Cierre de la clase.
