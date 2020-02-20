@@ -1,0 +1,37 @@
+package oscurilandia;
+
+public class Caguano extends Carro {
+	private int alcanceTiro;
+	private String colorConfeti;
+	
+	public Caguano(int cantocupantes, String fechaingreso, int posicion_x, int posicion_y, int alcancetiro, String colorconfeti) {
+		super(cantocupantes, fechaingreso, posicion_x, posicion_y);
+		
+		this.alcanceTiro = alcancetiro;
+		this.colorConfeti = colorconfeti;
+	}
+
+	public int getAlcancetiro() {
+		return alcanceTiro;
+	}
+
+	public void setAlcancetiro(int alcancetiro) {
+		this.alcanceTiro = alcancetiro;
+	}
+
+	public String getColorconfeti() {
+		return colorConfeti;
+	}
+
+	public void setColorconfeti(String colorconfeti) {
+		this.colorConfeti = colorconfeti;
+	}
+
+	@Override
+	public String toString() {
+		return "Caguano" + super.toString()+ "\nAlcance de Tiro: " + alcanceTiro + "\nColor Confeti=" + colorConfeti;
+	}
+	
+	
+	
+}
